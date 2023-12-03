@@ -1,0 +1,62 @@
+/* style.css */
+
+html {
+    height: 100%;
+  }
+  
+  main {
+    height: 80%;
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+  }
+
+  div {
+    height: 5%;
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    padding: 5px;
+    /* This centers our sketch vertically. */
+    align-items: center;
+  }
+
+  h1{
+    text-align: center;
+  }
+ 
+
+.intro{
+  font-weight:600;
+  font-size: 21px;
+  color: rgb(255, 255, 255);
+  background: black;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  min-width: 155px;
+} 
+
+#button01:hover{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  transition:0.7s;
+}
+#button02:hover{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  transition:0.7s;
+}
+#button03:hover{
+  background-color: rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
+  transition:0.7s;
+}
